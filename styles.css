@@ -1,0 +1,682 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 50px; 
+    margin-right: 10px; 
+}
+
+.brand-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ff0000;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container input[type="text"] {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.search-container input[type="text"]:focus {
+    border-color: #000;
+}
+
+.search-button {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.search-button:hover {
+    color: #ff0000;
+}
+
+.login-button,
+.cartt-button {
+   
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+
+ .login-button:hover, 
+.cartt-button:hover {
+    background-color: #39e4f4;
+    color: #fffdfd;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+
+
+.video-container {
+    width: 99%; 
+    margin: 50px auto; 
+    
+    padding: 10px; 
+    
+  }
+  
+  video {
+    width: 98%;
+    height: auto;
+    display: block;
+    margin-left: 15px;
+  }
+  
+
+
+
+
+
+
+
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+.container {
+    display: flex;
+    overflow-x: auto;
+    padding: 20px;
+    scroll-behavior: smooth;
+}
+.shoe-card {
+    min-width: 300px;
+    margin: 0 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.shoe-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+.shoe-card h3 {
+    margin: 15px 0;
+}
+.shoe-card p {
+    color: #888;
+    margin-bottom: 10px;
+}
+.shoe-card .price {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttons button, .buttons a {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+.buttons button::after, .buttons a::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: all 0.5s;
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    z-index: 0;
+}
+.buttons button:hover, .buttons a:hover {
+    background-color: #555;
+}
+.buttons button:active::after, .buttons a:active::after {
+    transform: translate(-50%, -50%) scale(1);
+    transition: none;
+}
+.share-logo {
+    width: 20px;
+    height: 20px;
+    background-image: url('share-icon.png');
+    background-size: contain;
+    cursor: pointer;
+}
+
+.imgJor{
+    width: 96%;
+    height: 350px;
+    margin-left: 20px;
+    margin-top: 60px ;
+    border-radius: 10px;
+    border: 6px solid black;
+
+}
+
+
+
+.product-section {
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px; 
+    overflow-x: auto; 
+}
+
+.product {
+    flex: 1 1 23%; 
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s; 
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product .price {
+    color: #888;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.add-to-cart,
+.buy-now {
+    background-color: #000;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart:hover,
+.buy-now:hover {
+    background-color: #e60000;
+}
+
+
+.product:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+}
+
+  .shoe-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 900px; 
+    margin: 0 auto;
+}
+
+.shoe-card {
+    background-color: white;
+    width: 32%; 
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+    text-align: center;
+}
+
+.shoe-card:hover {
+    transform: translateY(-10px);
+}
+
+.shoe-card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.shoe-card:hover img {
+    transform: scale(1.1);
+}
+
+.shoe-info {
+    padding-top: 15px;
+}
+
+.shoe-info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.ratings {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.ratings li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.ratings span {
+    font-weight: bold;
+    color: #333;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.shop-button,
+.cart-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.shop-button:hover,
+.cart-button:hover {
+    background-color: #555;
+    transform: scale(1.05);
+}
+
+.cart-button {
+    background-color: #f39c12;
+}
+
+.cart-button:hover {
+    background-color: #e67e22;
+}
+
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .shop-by-sport {
+    width: 100%;
+    max-width: 1200px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .carousel-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carousel {
+    display: flex;
+    overflow: hidden;
+    width: 80%;
+    scroll-behavior: smooth;
+    gap: 20px; /* Gap between the cards */
+  }
+  
+  .carousel-item {
+    position: relative;
+    min-width: 33.33%;
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+  }
+  
+  .carousel-item:hover img {
+    filter: grayscale(0%);
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .overlay:hover {
+    background-color: #000;
+    color: #fff;
+    transform: scale(1.1);
+  }
+  
+  .carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-size: 24px;
+  }
+  
+  .carousel-control.prev {
+    left: -50px;
+  }
+  
+  .carousel-control.next {
+    right: -50px;
+  }
+  
+
+  .cart-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.5); /* Black w/ opacity */
+}
+
+.cart-modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    max-width: 600px; /* Max width for the modal */
+    border-radius: 10px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#checkout-button{
+    margin-top: 0.5rem;
+    border-radius: 10px;
+    height: 20px;
+    width: 100px;
+    background-color: #e67e22;
+}
+
+
+
+/* RUNNER SECTion */
+
+/* Fullscreen hero section container */
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-image: url('https://imgs.search.brave.com/qPDQSP2F1vSmi5OSYdPbQr2KGVa81vErcDayib--I7c/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNTIz/MTkxMzEwL3Bob3Rv/L3VyYmFuLXJ1bm5l/cnMuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPWRJVmUtelQ0/T0J4YVVYUm5yRHJY/ZEJnT1QtcTI5VEhf/ejFNdWVtNnNzNk09');
+    background-size: cover; /* Cover entire viewport */
+    background-position: center; /* Center image */
+    background-attachment: fixed; /* Parallax effect on scroll */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+}
+
+/* Overlay styling for darkened effect */
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    z-index: 1; /* Ensure it appears below text */
+}
+
+/* Centered text overlay */
+.hero-content {
+    position: relative;
+    z-index: 2; /* Above the overlay */
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.hero-content p {
+    font-size: 1.5em;
+    margin: 20px 0;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.hero-content .cta-button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background-color: #ff6f61; /* Button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero-content .cta-button:hover {
+    background-color: #ff3e30; /* Darken button on hover */
+}
+
+
+
+/* runner section gidda */
+#page4 {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    position: relative;
+    background-image: url(https://imgs.search.brave.com/Z6P0VbxFyzUXncy8sngmEbMeHj6-JGy24IjrwPHr51E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDMyODc0/MjIuanBn);
+    background-size: cover;
+  }
+  .elem {
+    height: 70%;
+    width: 26%;
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+    margin-bottom: -34rem;
+  }
+  
+  .elem h2 {
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    color: #000;
+    font-weight: 800;
+    align-items: center;
+    justify-content: center;
+    transition: all ease 0.5s;
+    font-size: 2vw;
+    position: absolute;
+    z-index: 10;
+  }
+  .elem img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+    scale: 1.1;
+  }
+  .elem:hover h2 {
+    color: #fff;
+    background-color: transparent;
+  }
+  .elem:hover img {
+    scale: 1;
+  }
+  #page4 h1 {
+    font-size: 5.4vw;
+    position: absolute;
+    top: 30%;
+    font-weight: 900;
+    font-family: gilroy;
+    color: #000;
+    -webkit-text-stroke: -8px #fff;
+  }
+
+
+
